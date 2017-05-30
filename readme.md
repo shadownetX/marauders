@@ -1,4 +1,4 @@
-##Configuration Server
+# Configuration Server
 
 Création d'un dossier sous windows qui hébergera les infos du serveur de dev dans :
 ```
@@ -20,7 +20,7 @@ vagrant up
 
 Laisse faire vagrant +- 10 minutes.
 
-##Projet Marauders
+# Projet Marauders
 
 
 Un nouveau dossier **html** a été généré dans ton projet c'est à cet endroit qu'il faudra 
@@ -29,7 +29,7 @@ cloner le dépôt git : https://github.com/shadownetX/marauders.git
 Maintenant que tout est au poil tu peux lancer un ``composer install`` (je t'ai laissé
 le fichier **.json** pour que tout soit automatisé).
 
-##VHOST
+# VHOST
 
 Dernière étape, ajouter la redirection en local pour atteindre le back-office depuis le fichier **hosts** dans :
 ```
@@ -41,7 +41,7 @@ Une nouvelle ligne :
 ```
 Direct tu as accès à http://marauders.dev en local
 
-##Infos Russe
+# Infos Russe
 
 Tu peux ensuite te connecter en ssh dans marauders.dev en tapant : ``vagrant ssh`` ou kill 
 la session avec un ``vagrant halt`` quand tu auras besoin de créer ton projet angular ;)
